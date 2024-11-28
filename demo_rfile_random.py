@@ -1,7 +1,10 @@
 # safer way of managing file handles using a context resource maneger (with statement)
 import sys
 # New code
-
+movies = { 'chris': ['die hard', 'trainspotting', 'barbie'],
+           'tom': ['12 strong', 'forest gump', 'the matrix'],
+           'andrius': ['gladiator', 'the boondock saints', 'con air'],
+           'winson': ['top gun', 'terminator', 'pretty woman']}
 
 SOF = 0
 CUR = 1
